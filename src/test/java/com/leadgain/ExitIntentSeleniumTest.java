@@ -233,13 +233,13 @@ public static Logger LOGGER = Logger.getLogger(ExitIntentSeleniumTest.class);
 	    	webDriver.findElement(By.id("username")).sendKeys(email);
 	    	Thread.sleep(2000);
 	    	
-	    	webDriver.findElement(By.id("password")).sendKeys("YITQ6XWP");
+	    	webDriver.findElement(By.id("password")).sendKeys("PCLPLZ3J");
 	    	Thread.sleep(2000);
 	    	webDriver.findElement(By.cssSelector("button[class='ant-btn ant-btn-primary ant-btn-lg']")).click();
 		    Thread.sleep(1000);
 		    String after_login =webDriver.getCurrentUrl();
 		    
-		    System.out.println(!before_login.equals(after_login));
+		    System.out.println(before_login.equals(after_login));
 		//    assertThat(before_login, is(after_login));
 		   assertTrue(before_login.equals(after_login));
 		    
