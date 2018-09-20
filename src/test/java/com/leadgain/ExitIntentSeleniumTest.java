@@ -233,7 +233,7 @@ public static Logger LOGGER = Logger.getLogger(ExitIntentSeleniumTest.class);
 	    	webDriver.findElement(By.id("username")).sendKeys(email);
 	    	Thread.sleep(2000);
 	    	
-	    	webDriver.findElement(By.id("password")).sendKeys("abcd");
+	    	webDriver.findElement(By.id("password")).sendKeys("abcdefg");
 	    	Thread.sleep(2000);
 	    	webDriver.findElement(By.cssSelector("button[class='ant-btn ant-btn-primary ant-btn-lg']")).click();
 		    Thread.sleep(1000);
