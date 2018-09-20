@@ -233,7 +233,7 @@ public static Logger LOGGER = Logger.getLogger(ExitIntentSeleniumTest.class);
 	    	webDriver.findElement(By.id("username")).sendKeys(email);
 	    	Thread.sleep(2000);
 	    	
-	    	webDriver.findElement(By.id("password")).sendKeys("abcde");
+	    	webDriver.findElement(By.id("password")).sendKeys("PCLPLZ3J");
 	    	Thread.sleep(2000);
 	    	webDriver.findElement(By.cssSelector("button[class='ant-btn ant-btn-primary ant-btn-lg']")).click();
 		    Thread.sleep(1000);
@@ -241,7 +241,7 @@ public static Logger LOGGER = Logger.getLogger(ExitIntentSeleniumTest.class);
 		    
 		    System.out.println(before_login.equals(after_login));
 		//    assertThat(before_login, is(after_login));
-		   assertTrue(!before_login.equals(after_login));
+		   assertTrue(before_login.equals(after_login));
 		    
 //		    webDriver.findElement(By.xpath("//a[contains(@href,\"#/changePassword\")]")).click();
 //	    	Thread.sleep(3000);
